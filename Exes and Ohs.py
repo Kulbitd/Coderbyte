@@ -7,4 +7,4 @@ def xo(s):
         return False
 
 
-xo("xxOo")
+xo("xxoo")

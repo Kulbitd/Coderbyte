@@ -19,4 +19,4 @@ def open_or_senior(data):
     return data
 
 
-open_or_senior([[45, 12], [55, 21], [19, -2], [104, 20]])
+open_or_senior([[45, 12], [55, 21], [19, -2], [104, 12]])
