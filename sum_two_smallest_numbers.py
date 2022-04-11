@@ -1,8 +1,7 @@
 def sum_two_smallest_numbers(numbers):
-    num1, num2 = 0, 0
-    num1 = min(numbers, key=lambda i: int(i))
+    num1 = min(numbers)
     numbers.remove(num1)
-    num2 = min(numbers, key=lambda i: int(i))
+    num2 = min(numbers)
     sum_ = num1 + num2
     print(sum_)
     return sum_
