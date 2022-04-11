@@ -15,14 +15,13 @@ def persistence(n):
         while i < len(n):
             answer *= int(n[i])
             i = i + 1
+        if int(n) < 10:
+            break
         number += 1
         i = 0
         n = answer
         answer = 1
-        if n < 10:
-            break
         n = str(n)
     return number
-
 
 persistence(39)
